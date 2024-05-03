@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    max-width: 1200px;
+    min-height: 120px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+main{
+    min-height: 400px; 
+}
+
+aside{
+    min-height: 400px; 
+}
+
+footer {
+    min-height: 80px;
+    min-width: 80px;
+} 
